@@ -1,0 +1,23 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldClocks"
+        mc:Ignorable="d"
+        ContentRendered="Main"
+        Background="Wheat"
+        
+        Title="CD's USA Clocks" Height="375" Width="650" >
+    <Grid>
+        <Label Name="EST" Background="Black" Foreground="GreenYellow" Width="300" Height="100" FontSize="64" Margin="10,65,0,0" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">12:00:00</Label>
+        <Label Name="CST" Background="Black" Foreground="GreenYellow" Width="300" Height="100" FontSize="64" Margin="315,65,0,0" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">12:00:00</Label>
+        <Label Name="MST" Background="Black" Foreground="GreenYellow" Width="300" Height="100" FontSize="64" Margin="10,225,0,0" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">12:00:00</Label>
+        <Label Name="PST" Background="Black" Foreground="GreenYellow" Width="300" Height="100" FontSize="64" Margin="315,225,0,0" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">12:00:00</Label>
+        <Label Background="White" Width="300" Height="50" FontSize="18" Margin="315,10,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">CST</Label>
+        <Label Background="White" Width="300" Height="50" FontSize="18" Margin="10,10,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="EST" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Background="White" Width="300" Height="50" FontSize="18" Margin="10,170,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">MST</Label>
+        <Label Background="White" Width="300" Height="50" FontSize="18" Margin="315,170,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left">PST</Label>
+
+    </Grid>
+</Window>
